@@ -33,7 +33,7 @@ function playGame(targetCombination) {
 
   while (attempts > 0) {
     // Get the player's proposal (you can implement this based on user input)
-    let playerProposal = prompt('Enter your proposal:').split(',');
+    let playerProposal = alert('Guess the color:').split(',');
 
     // Check if the proposal is valid
     if (!correctCombination(playerProposal)) {
@@ -63,3 +63,4 @@ const targetCombination = ['blue', 'red', 'green', 'yellow']; // Set your target
 
 playGame(targetCombination);
 console.log(playGame(targetCombination('blue', 'red', 'green', 'yellow')))
+ 
